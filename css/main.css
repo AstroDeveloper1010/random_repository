@@ -406,6 +406,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-area {
     height: 80vh !important;
   }
+
+  .banner-left {
+    padding-top: 12vh !important;
+  }
+  
+  .banner-left .my-btn {
+    margin-left: 4vw;
+  }
 }
 
 .banner-left h6 {
