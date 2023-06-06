@@ -32,7 +32,8 @@
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1126,19 +1127,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* =================================== */
 /*  Insurence Page Styles
 /* =================================== */
-.insurence-right h6, .insurence-left h6 {
+.insurence-right h6,
+.insurence-left h6 {
   font-weight: 500;
 }
 
-.insurence-right h1, .insurence-left h1 {
+.insurence-right h1,
+.insurence-left h1 {
   margin: 20px 0px;
 }
 
-.insurence-right p, .insurence-left p {
+.insurence-right p,
+.insurence-left p {
   max-width: 445px;
 }
 
-.insurence-right img, .insurence-left img {
+.insurence-right img,
+.insurence-left img {
   width: 100%;
 }
 
@@ -1465,7 +1470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0px;
 }
 
-.widget-wrap .search-widget form.search-form input[type=text] {
+.widget-wrap .search-widget form.search-form input[type="text"] {
   color: #fff;
   padding: 10px 22px;
   font-size: 14px;
@@ -1828,7 +1833,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -1867,7 +1872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -2221,7 +2226,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
 }
 
-.copy-right-text i, .copy-right-text a {
+.copy-right-text i,
+.copy-right-text a {
   color: #f8b600;
 }
 
@@ -2396,6 +2402,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-top: 1px solid #333;
 }
 
-.footer-text a, .footer-text i {
+.footer-text a,
+.footer-text i {
   color: #f8b600;
 }
