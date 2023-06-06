@@ -388,9 +388,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  /* background: url(../img/hero-bg.jpg) center; */
-  background: url(../images/family\ on\ beach.jpg) center;
+  background: url(../images/family\ on\ beach.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner-area .overlay-bg {
@@ -399,7 +400,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767px) {
   .banner-area .fullscreen {
-    height: auto !important;
+    height: 40vh !important;
+  }
+
+  .banner-area {
+    height: 80vh !important;
   }
 }
 

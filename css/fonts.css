@@ -33,3 +33,15 @@
   background-color: #fff;
 }
 /* button end */
+
+/* hero section start */
+.hs-h {
+    height: 100vh !important;
+}
+
+@media (max-width: 767px) {
+    .hs-h {
+        height: 80vh  !important;
+    }
+}
+/* hero section end */
