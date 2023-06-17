@@ -240,9 +240,6 @@ $(document).ready(function() {
         }
     });
 
-
-
-
     //------- Header Scroll Class  js --------//  
 
     $(window).scroll(function() {
