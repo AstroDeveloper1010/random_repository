@@ -28,6 +28,11 @@
   background: transparent;
 }
 
+.header-top {
+  background: #16163f;
+  font-size: 14px !important;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
