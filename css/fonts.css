@@ -91,3 +91,14 @@
   margin-top: 16px;
 }
 /* whatsapp end */
+
+/* popular packages start */
+.ppi {
+  height: 34vh;
+}
+
+.pp_price {
+  color: #1b7f40;
+  font-size: 25px;
+}
+/* popular packages end */
