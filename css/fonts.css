@@ -97,6 +97,10 @@
   height: 34vh;
 }
 
+.ppi:hover {
+  filter: grayscale(80%) brightness(90%);
+}
+
 .pp_price {
   color: #1b7f40;
   font-size: 25px;
