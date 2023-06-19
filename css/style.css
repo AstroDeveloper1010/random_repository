@@ -1,3 +1,7 @@
+.html {
+  scroll-behavior: smooth;
+}
+
 /* fixed btn start */
 .fixed-button {
   position: fixed;
@@ -32,12 +36,13 @@
 
 /* parallax section start */
 .parallax {
-  background-image: url("../images/surfing\ 9.jpg");
+  background: url(../images/surfing\ 9.webp);
+  width: 100vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 80vh;
 }
 
 .parallax-content {
