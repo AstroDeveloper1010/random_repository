@@ -415,7 +415,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-left {
     padding-top: 12vh !important;
   }
-  
+
   .banner-left .my-btn {
     margin-left: 4vw;
   }
@@ -658,6 +658,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- end price Area ------------*/
 /*-------- start other-issue Area ------------*/
+@media (max-width: 600px) {
+  .single-other-issue {
+    padding: 6px;
+  }
+}
+
 .single-other-issue .thumb {
   overflow: hidden;
 }

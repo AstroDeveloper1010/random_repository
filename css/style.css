@@ -32,7 +32,7 @@
 
 /* parallax section start */
 .parallax {
-  background-image: url('../images/surfing\ 9.jpg');
+  background-image: url("../images/surfing\ 9.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,21 +52,21 @@
 
 .h2_parallax {
   font-size: 32px;
-  color: #FFFFFF; /* Update the color for the heading */
+  color: #ffffff; /* Update the color for the heading */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a text shadow for better visibility */
 }
 
 .p_parallax {
   font-size: 18px;
   margin-bottom: 20px;
-  color: #FFFFFF; /* Update the color for the paragraphs */
+  color: #ffffff; /* Update the color for the paragraphs */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Add a text shadow for better visibility */
 }
 
 .btn_parallax {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #FF4081;
+  background-color: #ff4081;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -74,7 +74,6 @@
 }
 
 .offer {
-  /* background-color: rgba(255, 255, 255, 0.8); */
   background-color: rgba(26, 1, 1, 0.63);
   padding: 20px;
   border-radius: 8px;
@@ -87,7 +86,58 @@
 }
 
 .offer p {
-  font-size: 20px; /* Increase the font size for the offer paragraphs */
-  margin-bottom: 15px; /* Decrease the margin-bottom for the offer paragraphs */
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 /* parallax section end */
+
+/* contact us start */
+.contact-form {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+.contact-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.form-control {
+  border-radius: 0;
+}
+.submit-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+.submit-btn:hover {
+  background-color: #c82333;
+}
+/* contact us end */
+
+/* footer start */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #bbb;
+}
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+/* footer end */
