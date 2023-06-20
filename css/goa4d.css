@@ -1,0 +1,237 @@
+/* hero section start */
+.about-banner {
+  height: 72vh !important;
+  background: url("../images/girl\ on\ beach\ 3.webp") !important;
+  background-position: top !important;
+  background-size: cover !important;
+  /* background-repeat: no-repeat !important; */
+}
+
+.header-top {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* hero section end */
+
+/* tour overview start */
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/goa4d/to1.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/goa4d/to2.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/goa4d/to3.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/goa4d/to4.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/goa4d/to5.webp") no-repeat 50% 50% / cover;
+}
+/* tour overview end */
+
+/* parallax section start */
+.parallax-section {
+  height: 40vh;
+  background: url("../images/girl\ on\ beach\ 3.webp") no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.parallax-section .content {
+  padding: 2vh;
+  text-align: center;
+  color: #fff;
+}
+/* parallax section end */
+
+/* about section start */
+#about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#about h2 {
+  margin-bottom: 40px;
+}
+
+#about p.lead {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#about .list-group {
+  margin-top: 20px;
+}
+
+#about .list-group-item {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+#about .list-group-item:last-child {
+  border-bottom: none;
+}
+/* about section end */
+
+/* carousel start */
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-indicators li {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+/* carousel end */
+
+/* package start */
+#details h2 {
+  color: #333;
+}
+
+.price-card {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.price-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.price-card .card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.price-card .card-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.price-card .price {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price-card .duration {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.package-features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.package-features li {
+  margin-bottom: 8px;
+}
+
+.package-features i {
+  margin-right: 8px;
+  color: #5f9ea0;
+}
+
+.package-features li:last-child {
+  margin-bottom: 0;
+}
+
+.accordion .card {
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.accordion .card-header {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.accordion .card-header:hover {
+  background-color: #e9ecef;
+}
+
+.accordion .card-header button {
+  width: 100%;
+  text-align: left;
+  color: #333;
+}
+
+.accordion .card-body {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 767.98px) {
+  .price-card .card-title {
+    font-size: 20px;
+  }
+
+  .price-card .price {
+    font-size: 26px;
+  }
+
+  .price-card .duration {
+    font-size: 12px;
+  }
+
+  .package-features {
+    font-size: 12px;
+  }
+
+  .accordion .card-body {
+    padding: 10px;
+  }
+}
+/* package end */
+
+/* contact us start */
+#contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#contact h2 {
+  margin-bottom: 40px;
+}
+/* contact us end */

@@ -771,7 +771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------- end testimonial area  -------------*/
 /*--------- start home-about area  -------------*/
 .home-about-area .home-about-left {
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 @media (max-width: 1366px) {
@@ -2433,4 +2433,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-text a,
 .footer-text i {
   color: #f8b600;
+}
+
+.active {
+  color: #f8b600 !important;
 }

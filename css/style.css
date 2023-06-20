@@ -5,9 +5,9 @@
 /* fixed btn start */
 .fixed-button {
   position: fixed;
-  left: 92vw; /* Adjust this value to control the horizontal position */
-  bottom: 50vh; /* Adjust this value to control the vertical position */
-  z-index: 9999; /* Ensure the button appears above other content */
+  left: 92vw;
+  bottom: 50vh;
+  z-index: 9999;
   transform: rotate(270deg);
   transition: transform 0.3s ease;
 }
@@ -57,15 +57,15 @@
 
 .h2_parallax {
   font-size: 32px;
-  color: #ffffff; /* Update the color for the heading */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a text shadow for better visibility */
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .p_parallax {
   font-size: 18px;
   margin-bottom: 20px;
-  color: #ffffff; /* Update the color for the paragraphs */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Add a text shadow for better visibility */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .btn_parallax {

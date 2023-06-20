@@ -310,3 +310,35 @@ main > div > a:hover {
   color: #005baa;
 }
 /* popular packages end */
+
+/* fixed btn start */
+.fixed-button {
+  position: fixed;
+  left: 92vw;
+  bottom: 50vh;
+  z-index: 9999;
+  transform: rotate(270deg);
+  transition: transform 0.3s ease;
+}
+
+.fixed-button {
+  background-color: #150363;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.fixed-button:hover {
+  background-color: #e91e63;
+}
+
+@media (max-width: 700px) {
+  .fixed-button {
+    display: none;
+  }
+}
+/* fixed btn end */
