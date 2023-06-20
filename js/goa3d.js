@@ -1,3 +1,4 @@
+/* tour highlights start */
 var swiper = new Swiper(".swiper", {
   effect: "coverflow",
   grabCursor: true,
@@ -11,8 +12,8 @@ var swiper = new Swiper(".swiper", {
   },
   loop: true,
   autoplay: {
-    delay: 3000, // Adjust the delay (in milliseconds) between slides
-    disableOnInteraction: false // Enable/disable autoplay on user interaction
+    delay: 5000,
+    disableOnInteraction: false
   },
   pagination: {
     el: ".swiper-pagination",
@@ -33,3 +34,19 @@ var swiper = new Swiper(".swiper", {
     }
   }
 });
+/* tour highlights end */
+
+/* accordians start */
+$(document).ready(function () {
+  // Add minus icon for collapse element which is open by default
+  $(".collapse.show").each(function () {
+    $(this).prev(".card-header").addClass("highlight");
+  });
+
+  // Highlight open collapsed element 
+  $(".card-header .btn").click(function () {
+    $(".card-header").not($(this).parents()).removeClass("highlight");
+    $(this).parents(".card-header").toggleClass("highlight");
+  });
+});
+/* accordians end */

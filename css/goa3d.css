@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+  background: #fff !important;
+  background-image: none !important;
+}
+
 /* header start */
 .about-banner {
   height: 60vh !important;
@@ -16,7 +22,7 @@
 }
 /* header end */
 
-/* accordian start */
+/* tour highlights start */
 .main {
   position: relative;
   width: calc(min(90rem, 90%));
@@ -24,10 +30,6 @@
   min-height: 70vh;
   column-gap: 3rem;
   padding-block: min(20vh, 3rem);
-}
-
-.section1 {
-  height: 20vh !important;
 }
 
 .bg {
@@ -176,32 +178,27 @@ main > div > a:hover {
 
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/tour\ overview/to1.webp")
-      no-repeat 50% 50% / cover;
+    url("../images/tour\ overview/to1.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/tour\ overview/to2.webp")
-      no-repeat 50% 50% / cover;
+    url("../images/tour\ overview/to2.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/tour\ overview/to3.webp")
-      no-repeat 50% 50% / cover;
+    url("../images/tour\ overview/to3.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/tour\ overview/to4.webp")
-      no-repeat 50% 50% / cover;
+    url("../images/tour\ overview/to4.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/tour\ overview/to5.webp")
-      no-repeat 50% 50% / cover;
+    url("../images/tour\ overview/to5.webp") no-repeat 50% 50% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -225,4 +222,91 @@ main > div > a:hover {
     width: 85%;
   }
 }
+/* tour highlights end */
+
+/* accordian start */
+.accordion .card {
+  background: none;
+  border: none;
+}
+.accordion .card .card-header {
+  background: none;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.accordion .card-header h2 span {
+  float: left;
+  margin-top: 10px;
+}
+.accordion .card-header .btn {
+  color: #2f2f31;
+  font-size: 1.04rem;
+  text-align: left;
+  position: relative;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+.accordion .card-header i {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+.accordion .card-header .btn:hover {
+  color: #005baa;
+}
+.accordion .card-body {
+  color: #324353;
+  padding: 0.5rem 3rem;
+}
+.page-title {
+  margin: 3rem 0 3rem 1rem;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.page-title::after {
+  content: "";
+  width: 80px;
+  position: absolute;
+  height: 3px;
+  border-radius: 1px;
+  background: #005baa;
+  left: 0;
+  bottom: -15px;
+}
+.accordion .highlight .btn {
+  color: #005baa;
+}
+.accordion .highlight i {
+  transform: rotate(180deg);
+}
+
+.blue_title {
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
+  background-color: #005baa;
+  background-image: linear-gradient(45deg, #005baa, #000000);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* accordian end */
+
+/* popular packages start */
+.btn1 {
+  color: green;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 800;
+}
+
+.color_blue {
+  color: #005baa;
+}
+/* popular packages end */
