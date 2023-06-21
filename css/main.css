@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  color: #000;
+}
+
 .main-menu {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -397,14 +401,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../images/family\ on\ beach.jpg);
+  /* background: url(../images/family\ on\ beach.jpg); */
+  background: url(../images/cover_image.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .banner-area .overlay-bg {
-  background: rgba(4, 9, 30, 0.4);
+  background: rgba(4, 9, 30, 0.107);
+  /* background: rgba(4, 9, 30, 0.4); */
 }
 
 @media (max-width: 767px) {

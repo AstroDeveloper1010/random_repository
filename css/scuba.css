@@ -1,0 +1,43 @@
+/* hero section start */
+.about-banner {
+  height: 72vh !important;
+  background: url("../images/scuba/slide5.webp") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.header-top {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* hero section end */
+
+/* tour overview start */
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/scuba/slide1.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/scuba/slide2.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/scuba/slide3.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/scuba/slide4.webp") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("../images/scuba/slide5.webp") no-repeat 50% 50% / cover;
+}
+/* tour overview end */

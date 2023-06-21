@@ -28,16 +28,151 @@
 
 .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/monsoon/rain3.jpg") no-repeat 50% 50% / cover;
+    url("../images/monsoon/r1.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/monsoon/rain4.jpg") no-repeat 50% 50% / cover;
+    url("../images/monsoon/r2.jpg") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/monsoon/rain5.jpg") no-repeat 50% 50% / cover;
+    url("../images/monsoon/rain14.webp") no-repeat 50% 50% / cover;
 }
 /* tour overview end */
+
+/* price card start */
+.card_gtp {
+  width: 320px;
+  margin: 20px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  position: relative;
+}
+
+.card-img-top img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.ribbon1 {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  background-color: #f40707;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ribbon2 {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  background-color: #120348;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ribbon3 {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  background-color: #006012;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body_gtp {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card-details {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.card-details li {
+  margin-bottom: 5px;
+}
+
+.card-details li i {
+  margin-right: 5px;
+  color: #888;
+}
+
+.card-price {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 4vh;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.currency {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.amount {
+  font-size: 40px;
+}
+
+.duration {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.btn_card {
+  margin-top: 2vh;
+  width: 50%;
+  margin-inline: 20%;
+  background-color: #000;
+  border-color: #fff;
+}
+
+.btn_card:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.gtp_img {
+  height: 30vh !important;
+}
+
+.gtp_img:hover {
+  filter: brightness(70%);
+}
+/* price card end */
+
+/* did not find your package start */
+.home-about-area {
+  background-color: rgba(135, 206, 250, 0.488);
+}
+/* did not find your package end */
