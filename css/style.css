@@ -34,6 +34,30 @@
 }
 /* fixed btn end */
 
+/* hero section start */
+.title_fp {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  line-height: 5rem;
+  padding: 20px;
+  background-image: url("../images/beach.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 100vw;
+}
+
+.gtp_typing_animation {
+  /* height: 18vh; */
+}
+
+.btn_gtp {
+  font-size: 22px;
+}
+/* hero section end */
+
 /* parallax section start */
 .parallax {
   background: url(../images/family\ on\ beach.jpg);
@@ -42,7 +66,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
 }
 
 .parallax-content {
@@ -68,20 +92,20 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.btn_parallax {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #ff4081;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 4px;
+.btn_parallax:hover {
+  border: 2px solid white;
+  background: transparent;
+  color: #f8f9fa;
 }
 
 .offer {
   background-color: rgba(26, 1, 1, 0.63);
   padding: 20px;
   border-radius: 8px;
+}
+
+.offer p {
+  color: white;
 }
 
 .h3_parallax {
@@ -345,3 +369,148 @@
   background-color: #bbbbbb;
 }
 /* about us end */
+
+/* popular packages start */
+.ppi {
+  height: 34vh;
+}
+
+.ppi:hover {
+  filter: grayscale(80%) brightness(90%);
+}
+
+.pp_price {
+  color: #1b7f40;
+  font-size: 35px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.pp_div {
+  font-family: cursive;
+  font-size: 14px;
+  color: gray;
+}
+
+.pp_title {
+  font-size: 25px;
+}
+
+.pp_card {
+  box-shadow: 0.5px 0.5px 0.5px #feeeee9b;
+}
+
+.pp_card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* popular packages end */
+
+/* testimonials start */
+.testimonial-area {
+  background: url("../images/scuba/s1.webp") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay_t {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 133, 244, 0.311);
+}
+
+.testimonial {
+  color: #fff;
+}
+
+.overview {
+  color: #fff;
+}
+
+.carousel {
+  width: 650px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.carousel .carousel-item {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 340px;
+}
+.carousel .carousel-item a {
+  color: #eb7245;
+}
+.carousel .img-box {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.carousel .testimonial {
+  padding: 30px 0 10px;
+}
+.carousel .overview {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.carousel .overview b {
+  color: #333;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 5px;
+}
+.carousel .star-rating i {
+  font-size: 18px;
+  color: #ffdc12;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #999;
+  text-shadow: none;
+  top: 4px;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 20px;
+  margin-right: 2px;
+}
+.carousel-control-prev {
+  left: auto;
+  right: 40px;
+}
+.carousel-control-next i {
+  margin-right: -2px;
+}
+.carousel .carousel-indicators {
+  bottom: 15px;
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 11px;
+  height: 11px;
+  margin: 1px 5px;
+  border-radius: 50%;
+}
+.carousel-indicators li {
+  background: #e2e2e2;
+  border: none;
+}
+.carousel-indicators li.active {
+  background: #888;
+}
+/* testimonials end */

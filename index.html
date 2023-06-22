@@ -78,16 +78,27 @@
 	<!-- hero section start -->
 	<section class="banner-area relative hs-h">
 		<div class="overlay overlay-bg"></div>
-		<div class="container">
-			<div class="row fullscreen align-items-center justify-content-between">
-				<div class="col-lg-6 col-md-6 banner-left">
-					<!-- <h6 class="text-white">Away from monotonous life</h6> -->
-					<h1 class="text-white cursive">Discover The Beauty Of Goa</h1>
-					<p class="text-white">
-						Enjoy the divine beauty of Goa with our unbeatable Goa tour packages. <br> Book now to get 10%
-						discount.
-					</p>
-					<a href="#" class="btn btn-primary text-uppercase">Book Now</a>
+		<div class="container"
+			style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+			<div class="row"
+				style="width: 100vw; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+				<div class="title_fp">Goa Tour Package</div>
+				<div class="col-lg-6 col-md-6 banner-left" style="max-width: 60%;">
+					<h1 class="gtp_typing_animation" style="color: #fff;">
+						<a href="#" style="color: white !important;" class="typewrite" data-period="2000"
+							data-type='[ "Dive into Goa’s Charm", "Discover Goa’s Beaches", "Dive into Crystal Water", "Experience Goa Adventure" ]'>
+							<span class="wrap"></span>
+						</a>
+					</h1>
+					<ul class="text-white mb-4 mt-4"
+						style="list-style: circle; display: flex; flex-direction: column; gap: 2vh; font-family: cursive; color: lightsteelblue !important; font-size: 18px !important;">
+						<li>Experience Goa's Beach Paradise and Enchanting Cultural Heritage.</li>
+						<li>Discover Goa's Pristine Beaches, Scenic Landscapes, and Vibrant Nightlife.</li>
+						<li>Dive into Goa's Crystal-clear Waters and Immerse in Adventure.</li>
+						<li>Indulge in Goa's Rich History, Delicious Cuisine, and Lively Festivals.</li>
+					</ul>
+					<a href="#" class="btn btn-dark btn_gtp rounded text-uppercase mr-50">Book Now</a>
+					<a href="#" class="btn btn-outline-dark btn_gtp rounded text-uppercase">Call Now</a>
 				</div>
 			</div>
 		</div>
@@ -156,7 +167,7 @@
 				<div class="active-recent-blog-carusel">
 					<div class="single-recent-blog-post item">
 						<div class="thumb">
-							<img class="img-fluid thi" src="images/top highlights/calangute beach.jpeg"
+							<img class="img-fluid thi" src="images/top highlights/calangute beach.webp"
 								alt="Calangute Beach">
 						</div>
 						<div class="details">
@@ -306,12 +317,12 @@
 	<!-- parallax section start -->
 	<section class="parallax">
 		<div class="parallax-content">
-			<h2 class="h2_parallax">Welcome to Goa</h2>
-			<p class="p_parallax">Experience the beauty of sun, sand, and sea.</p>
+			<h2 class="h2_parallax mb-5">Welcome to Goa</h2>
+			<!-- <p class="p_parallax">Experience the beauty of sun, sand, and sea.</p> -->
 			<div class="offer">
 				<h3 class="h3_parallax">Special Offer:</h3>
 				<p>Book now and get 20% off on beachfront resorts!</p>
-				<a href="#" class="btn btn_parallax">Book Now</a>
+				<a href="#" class="btn btn-light">Book Now</a>
 			</div>
 		</div>
 	</section>
@@ -420,134 +431,110 @@
 
 	<!-- testimonials start -->
 	<section class="testimonial-area section-gap">
+		<div class="overlay_t"></div>
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">Testimonial from our Clients</h1>
-						<p>From Aristocratic Elegance to Exquisite Experiences Hear What Our Customers Have to Say</p>
+						<h1 class="mb-10" style="background-color: rgb(0, 0, 72)3, 3, 68; color: white;">Testimonial
+							from our
+							Clients</h1>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="active-testimonial">
-					<div class="single-testimonial item d-flex flex-row">
-						<div class="thumb">
-							<img class="img-fluid" src="img/elements/user1.png" alt="" style="scale: 2.5;">
-						</div>
-						<div class="desc">
-							<p>
-								The beaches of Goa stole my heart! The tour package by Coastal Escapes was
-								well-organized, and the local guide made our trip truly memorable.
-							</p>
-							<h4>Mahesh Kumar</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-							</div>
-						</div>
-					</div>
-					<div class="single-testimonial item d-flex flex-row">
-						<div class="thumb">
-							<img class="img-fluid" src="img/elements/user2.png" alt="" style="scale: 2.5;">
-						</div>
-						<div class="desc">
-							<p>
-								Incredible adventure in Goa! The tour package by Goa Wanderlust covered all the
-								highlights, and the hospitality exceeded our expectations. Highly recommended!
-							</p>
-							<h4>Aishwarya Patel</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-							</div>
+			<!-- carousel -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<!-- one -->
+					<div class="carousel-item active">
+						<div class="img-box"><img src="images/testimonials/girl4.webp" alt=""></div>
+						<p class="testimonial">Goa Tour Package website made our trip unforgettable! From the thrilling
+							water sports to the vibrant nightlife, we were in awe of Goa's beauty. The seamless booking
+							process and excellent customer service made our experience even more delightful. Can't wait
+							to plan our next adventure with them!</p>
+						<p class="overview"><strong>Priya Patel</strong></p>
+						<div class="star-rating">
+							<ul class="list-inline">
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+							</ul>
 						</div>
 					</div>
-					<div class="single-testimonial item d-flex flex-row">
-						<div class="thumb">
-							<img class="img-fluid" src="img/elements/user1.png" alt="" style="scale: 2.5;">
-						</div>
-						<div class="desc">
-							<p>
-								Goa exceeded my expectations! The tour package by Tropical Tours offered a perfect
-								balance of relaxation and exploration. Unforgettable memories made.
-							</p>
-							<h4>Satender Kumar</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-							</div>
-						</div>
-					</div>
-					<div class="single-testimonial item d-flex flex-row">
-						<div class="thumb">
-							<img class="img-fluid" src="img/elements/user2.png" alt="" style="scale: 2.5;">
-						</div>
-						<div class="desc">
-							<p>
-								A dream getaway to Goa! The tour package by Serene Vacations provided seamless
-								arrangements, knowledgeable guides, and breathtaking experiences. Will definitely
-								return!
-							</p>
-							<h4>Meenakshi Vats</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-							</div>
+					<!-- two -->
+					<div class="carousel-item">
+						<div class="img-box"><img src="images/testimonials/girl2.webp" alt=""></div>
+						<p class="testimonial">Goa Tour Package website exceeded our expectations! As a group of girls,
+							safety was our top priority, and we felt completely secure throughout our journey. The
+							well-curated itinerary took us to stunning beaches, serene churches, and bustling markets.
+							Goa truly stole our hearts!</p>
+						<p class="overview"><strong>Aisha Khan</strong></p>
+						<div class="star-rating">
+							<ul class="list-inline">
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+							</ul>
 						</div>
 					</div>
-					<div class="single-testimonial item d-flex flex-row">
-						<div class="thumb">
-							<img class="img-fluid" src="img/elements/user1.png" alt="" style="scale: 2.5;">
-						</div>
-						<div class="desc">
-							<p>
-								Goa's charm unfolded before my eyes! The tour package by Exotic Explorations showcased
-								the best of the region, from stunning beaches to vibrant culture. Absolutely loved it!
-							</p>
-							<h4>Supriya Bhardwaj</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-							</div>
+					<!-- three -->
+					<div class="carousel-item">
+						<div class="img-box"><img src="images/testimonials/boy4.webp" alt=""></div>
+						<p class="testimonial">I and my friends had a blast in Goa, thanks to the amazing tour package
+							we booked through this website. The pristine beaches, mouthwatering seafood, and the vibrant
+							Goan culture left us mesmerized. Kudos to the team for organizing such a seamless and
+							exhilarating trip!</p>
+						<p class="overview"><strong>Satender Kumar</strong></p>
+						<div class="star-rating">
+							<ul class="list-inline">
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+							</ul>
 						</div>
 					</div>
-					<div class="single-testimonial item d-flex flex-row">
-						<div class="thumb">
-							<img class="img-fluid" src="img/elements/user2.png" alt="" style="scale: 2.5;">
-						</div>
-						<div class="desc">
-							<p>
-								Goa was a mesmerizing experience! Thanks to the impeccable tour package by Blissful
-								Journeys, we soaked in the sunsets and embraced the local culture.
-							</p>
-							<h4>Nikhil Kumar</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-							</div>
+					<!-- four -->
+					<div class="carousel-item">
+						<div class="img-box"><img src="images/testimonials/boy2.webp" alt=""></div>
+						<p class="testimonial">Our Goa trip was an absolute blast, all thanks to the incredible tour
+							package we found on this website. From exploring the charming Old Goa to indulging in
+							thrilling water sports, every moment was a highlight. The accommodations were top-notch, and
+							the local guide was knowledgeable and friendly. Highly recommended for an unforgettable
+							vacation!</p>
+						<p class="overview"><strong>Deepak Sanyam</strong></p>
+						<div class="star-rating">
+							<ul class="list-inline">
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+							</ul>
 						</div>
 					</div>
 				</div>
+				<!-- Carousel controls -->
+				<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
 			</div>
+
 		</div>
 	</section>
 	<!-- testimonials end -->

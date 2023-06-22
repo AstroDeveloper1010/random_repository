@@ -41,3 +41,95 @@
     url("../images/scuba/slide5.webp") no-repeat 50% 50% / cover;
 }
 /* tour overview end */
+
+/* price card start */
+.card_sdp {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.401);
+  transition: transform 0.3s ease;
+  /* margin-inline: 4px;   */
+}
+
+.card_sdp:hover {
+  /* transform: translateY(-5px); */
+  box-shadow: 0 4px 6px rgba(18, 89, 156, 0.661);
+}
+
+.card_sdp .card-header {
+  color: #000;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card_sdp .card-title {
+  font-size: 25px;
+  font-family: cursive;
+  margin: 0;
+  text-align: center;
+}
+
+.card_sdp .card-image {
+  text-align: center;
+}
+
+.card_sdp .card-image img {
+  width: 100%;
+  height: 30vh;
+}
+
+.card_sdp .card-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.card_sdp .card-details li {
+  margin-bottom: 10px;
+}
+
+.card_sdp .card-details li i {
+  margin-right: 10px;
+  color: rgb(13, 112, 174);
+}
+
+.card_sdp .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ccc;
+}
+
+.card_sdp .card-price {
+  font-size: 28px;
+  font-family: cursive;
+  margin: 0;
+}
+
+.card_sdp .btn-primary {
+  background-color: rgb(13, 112, 174);
+  border-color: #007bff5a;
+  transition: background-color 0.3s ease;
+}
+
+.card_sdp .btn-primary:hover {
+  background-color: #070d72cb;
+}
+
+.df {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+@media (max-width: 600px) {
+  .df {
+    display: block;
+  }
+}
+/* price card end */

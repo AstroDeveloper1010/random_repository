@@ -92,42 +92,6 @@
 }
 /* whatsapp end */
 
-/* popular packages start */
-.ppi {
-  height: 34vh;
-}
-
-.ppi:hover {
-  filter: grayscale(80%) brightness(90%);
-}
-
-.pp_price {
-  color: #1b7f40;
-  font-size: 35px;
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-}
-
-.pp_div {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  color: rgb(3, 10, 67);
-}
-
-.pp_title {
-  font-size: 25px;
-}
-
-.pp_card {
-  box-shadow: 0.5px 0.5px 0.5px #feeeee9b;
-}
-
-.pp_card:hover {
-  transform: scale(1.01);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-/* popular packages end */
-
 /* other issues start */
 .other_issues_img {
   height: 25vh;
