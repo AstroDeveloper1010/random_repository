@@ -514,3 +514,22 @@
   background: #888;
 }
 /* testimonials end */
+
+/* hero section start */
+.hero-section {
+  background-image: url('../images/cover_image.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: first center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    height: 90vh;
+  }
+}
+/* hero section end */
