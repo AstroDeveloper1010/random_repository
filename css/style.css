@@ -49,8 +49,13 @@
   width: 100vw;
 }
 
-.gtp_typing_animation {
-  /* height: 18vh; */
+@media (max-width: 600px) {
+  .title_fp {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 5rem !important;
+  }
 }
 
 .btn_gtp {
@@ -517,7 +522,7 @@
 
 /* hero section start */
 .hero-section {
-  background-image: url('../images/cover_image.webp');
+  background-image: url("../images/cover_image.webp");
   background-size: cover;
   background-position: center;
   height: 100vh;
