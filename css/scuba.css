@@ -153,4 +153,8 @@
     display: block;
   }
 }
+
+.overlay-bg2 {
+  background: rgba(0, 0, 0, 0.5);
+}
 /* price card end */
