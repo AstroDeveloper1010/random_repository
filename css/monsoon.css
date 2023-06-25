@@ -40,6 +40,16 @@
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
     url("../images/monsoon/rain14.webp") no-repeat 50% 50% / cover;
 }
+
+.a14 {
+  width: 48vw;
+}
+
+@media (max-width: 600px) {
+  .a14 {
+    width: 80vw;
+  }
+}
 /* tour overview end */
 
 /* price card start */
@@ -60,6 +70,10 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.card-header {
+  width: 20vw;
 }
 
 .ribbon1 {
@@ -176,3 +190,23 @@
   background-color: rgba(135, 206, 250, 0.488);
 }
 /* did not find your package end */
+
+/* accordians start */
+.a_jh {
+  height: 75vh;
+}
+
+.phone {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .a_jh {
+    height: 135vh;
+  }
+
+  .phone {
+    display: block;
+  }
+}
+/* accordians end */

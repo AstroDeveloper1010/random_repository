@@ -42,6 +42,18 @@
 }
 /* tour overview end */
 
+/* accordians start */
+.a_nf {
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .a_nf {
+    height: 202vh;
+  }
+}
+/* accordians end */
+
 /* price card start */
 .card_sdp {
   background-color: #f8f9fa;

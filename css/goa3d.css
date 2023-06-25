@@ -6,10 +6,14 @@ html {
   background-image: none !important;
 }
 
+header {
+  width: 100vw;
+}
+
 /* header start */
 .about-banner {
-  height: 60vh !important;
-  background: url("../images/girl\ on\ beach.jpg") !important;
+  height: 70vh !important;
+  background: url("../images/girl\ on\ beach\ 3.webp") !important;
   background-position: center !important;
   background-size: cover !important;
 }
@@ -25,7 +29,7 @@ html {
 /* tour highlights start */
 .main {
   position: relative;
-  width: calc(min(90rem, 90%));
+  width: 100vw;
   margin: 0 auto;
   min-height: 70vh;
   column-gap: 3rem;
@@ -222,23 +226,55 @@ main > div > a:hover {
     width: 85%;
   }
 }
+
+@media (max-width: 600px) {
+  .a11 {
+    margin-bottom: 4vh;
+  }
+}
 /* tour highlights end */
 
 /* accordian start */
+.accordian-div {
+  height: 80vh;
+}
+
 .accordion .card {
   background: none;
   border: none;
+  width: 40vw;
 }
+
+@media (max-width: 767px) {
+  .accordian-div {
+    height: 120vh;
+  }
+
+  .accordion .card {
+    width: 90vw;
+  }
+
+  .accordion .card-header {
+    width: 50vw;
+  }
+
+  .accordion .card-body {
+    width: 90vw;
+  }
+}
+
 .accordion .card .card-header {
   background: none;
   border: none;
   padding: 0.4rem 1rem;
   font-family: "Roboto", sans-serif;
 }
+
 .accordion .card-header h2 span {
   float: left;
   margin-top: 10px;
 }
+
 .accordion .card-header .btn {
   color: #2f2f31;
   font-size: 1.04rem;
@@ -247,6 +283,7 @@ main > div > a:hover {
   font-weight: 500;
   padding-left: 2rem;
 }
+
 .accordion .card-header i {
   font-size: 1.2rem;
   font-weight: bold;
@@ -254,18 +291,23 @@ main > div > a:hover {
   left: 0;
   top: 9px;
 }
+
 .accordion .card-header .btn:hover {
   color: #005baa;
 }
+
 .accordion .card-body {
   color: #324353;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 1rem;
+  text-align: unset;
 }
+
 .page-title {
   margin: 3rem 0 3rem 1rem;
   font-family: "Roboto", sans-serif;
   position: relative;
 }
+
 .page-title::after {
   content: "";
   width: 80px;
@@ -276,9 +318,11 @@ main > div > a:hover {
   left: 0;
   bottom: -15px;
 }
+
 .accordion .highlight .btn {
   color: #005baa;
 }
+
 .accordion .highlight i {
   transform: rotate(180deg);
 }
@@ -308,6 +352,14 @@ main > div > a:hover {
 
 .color_blue {
   color: #005baa;
+}
+
+.a12 {
+}
+
+.p1 {
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important; */
+  /* border: 2px solid red; */
 }
 /* popular packages end */
 

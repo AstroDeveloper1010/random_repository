@@ -2,11 +2,15 @@ body {
   scroll-behavior: smooth;
 }
 
+header {
+  width: 100vw;
+}
+
 /* hero section start */
 .about-banner {
   height: 72vh !important;
-  background: url("../images/girl\ on\ beach\ 3.webp") !important;
-  background-position: top !important;
+  background: url("../images/goa4d/to2.webp") !important;
+  background-position: center !important;
   background-size: cover !important;
   /* background-repeat: no-repeat !important; */
 }
@@ -99,17 +103,18 @@ body {
 .carousel-item img {
   object-fit: cover;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
+  width: 10vw !important;
 }
 
-.carousel-indicators {
+.carousel-indicators_a {
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.carousel-indicators li {
+.carousel-indicators_a li {
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
   width: 12px;
@@ -118,8 +123,12 @@ body {
   border-radius: 50%;
 }
 
-.carousel-indicators .active {
+.carousel-indicators_a .active {
   background-color: #fff;
+}
+
+.a13 {
+  width: 10vw !important;
 }
 /* carousel end */
 
@@ -238,4 +247,116 @@ body {
 #contact h2 {
   margin-bottom: 40px;
 }
+
+.a14 {
+  margin-top: 2vh;
+}
 /* contact us end */
+
+/* accordian start */
+.accordian-div {
+  height: 80vh;
+}
+
+.accordion .card {
+  background: none;
+  border: none;
+  width: 40vw;
+}
+
+@media (max-width: 767px) {
+  .accordian-div {
+    height: 110vh;
+  }
+
+  .accordion .card {
+    width: 90vw;
+  }
+
+  .accordion .card-header {
+    width: 50vw;
+  }
+
+  .accordion .card-body {
+    width: 90vw;
+  }
+}
+
+.accordion .card .card-header {
+  background: none;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.accordion .card-header h2 span {
+  float: left;
+  margin-top: 10px;
+}
+
+.accordion .card-header .btn {
+  color: #2f2f31;
+  font-size: 1.04rem;
+  text-align: left;
+  position: relative;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.accordion .card-header i {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
+.accordion .card-header .btn:hover {
+  color: #005baa;
+}
+
+.accordion .card-body {
+  color: #324353;
+  padding: 0.5rem 1rem;
+  text-align: unset;
+}
+
+.page-title {
+  margin: 3rem 0 3rem 1rem;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.page-title::after {
+  content: "";
+  width: 80px;
+  position: absolute;
+  height: 3px;
+  border-radius: 1px;
+  background: #005baa;
+  left: 0;
+  bottom: -15px;
+}
+
+.accordion .highlight .btn {
+  color: #005baa;
+}
+
+.accordion .highlight i {
+  transform: rotate(180deg);
+}
+
+.blue_title {
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
+  background-color: #005baa;
+  background-image: linear-gradient(45deg, #005baa, #000000);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* accordian end */

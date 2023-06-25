@@ -1149,8 +1149,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 5px 20px;
 }
 
-.destinations-area .single-destinations:hover {
+.destinations-area .single-destinations {
   box-shadow: 0px 10px 30px 0px rgba(60, 64, 143, 0.2);
+}
+
+.destinations-area .single-destinations:hover {
+  box-shadow: 0px 10px 30px 0px rgba(60, 64, 143, 0.35);
 }
 
 .destinations-area .star .checked {
