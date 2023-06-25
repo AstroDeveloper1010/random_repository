@@ -111,7 +111,8 @@ header {
 
 /* parallax section start */
 .parallax {
-  background: url("../images/family\ on\ beach.webp");
+  background: url("../images/goa4d/i1.webp");
+  /* background: url("../images/family\ on\ beach.webp"); */
   width: 100vw;
   background-attachment: fixed;
   background-position: center;
