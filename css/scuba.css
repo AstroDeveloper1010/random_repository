@@ -44,13 +44,21 @@
 
 /* accordians start */
 .a_nf {
-  height: 100vh;
+  height: 120vh;
 }
 
 @media (max-width: 600px) {
   .a_nf {
     height: 202vh;
   }
+
+  .phone {
+    display: block !important;
+  }
+}
+
+.phone {
+  display: none;
 }
 /* accordians end */
 
