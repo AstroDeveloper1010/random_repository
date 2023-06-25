@@ -101,6 +101,7 @@
 
 .card_sdp .card-details ul {
   list-style: none;
+  text-align: left;
   padding: 0;
   margin: 20px 0;
 }
